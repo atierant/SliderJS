@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My Slider Page 1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+    <!--<script type="text/javascript" src="js/myslider.js"></script>-->
+    <script type="text/javascript" src="js/slide.js"></script>
+    <script type="text/javascript" src="js/unslide.js"></script>
+</head>
+
+<body>
+    <div class="page">
+
+        <div id="header">
+        </div>
+        
+        <div id="menucontainer">
+            <ul id="menu">
+                <li title="page1"><a href="./page1.html" title="page1">page1</a></li>
+                <li title="page2"><a href="./page2.html" title="page2">page2</a></li>
+                <li title="page3"><a href="./page3.html" title="page3">page3</a></li>
+                <li title="page4"><a href="./page4.html" title="page4">page4</a></li>
+            </ul>
+        </div>
+
+        <div id="main">
+            <div id="contentplace">
+                <p>page 1 Lorem ipsum</p>
+                <p>La nouvelle API <a href="http://www.w3.org/TR/html5/history.html">HTML5 History</a> (qui n'a vraiment rien à voir avec HTML - c'est une API JavaScript) permet de gérer les changements d'URL en même temps que les <a href="http://developer.apple.com/library/safari/#documentation/InternetWeb/Conceptual/SafariVisualEffectsProgGuide/Transitions/Transitions.html">transitions CSS3</a> gèrent le glissement. Les permaliens sont toujours maintenus, le bouton de retour fonctionne comme prévu, et c'est beaucoup plus rapide que d'attendre un chargement de page complet.</a>
+                <p>Fondamentalement, on intercepte le clic, on appelle <code>pushState()</code> pour modifier l'URL du navigateur, on charge des données avec Ajax, puis on glisse vers elles.</p>
+                <p>Lors du clic sur le bouton de retour, un gestionnaire <code>onpopstate</code> est déclenché après le changement d'URL, facilitant le retour en arrière.</p>
+            </div>
+        </div>
+        
+        <div id="footer">
+        </div>
+        
+    </div>
+    
+    <div id="lastContent">
+    </div>
+    
+</body>
+</html>
+
